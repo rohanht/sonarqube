@@ -7,7 +7,7 @@ on:
 
 jobs:
   sonarqube:
-    uses: ./.github/workflows/sonarqube-analysis.yaml
+    uses: ./.github/workflows/sonarqube-analysis.yaml@main
     with:
       project-key: "sonarqube"
       node-version: "18"
