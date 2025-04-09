@@ -66,6 +66,12 @@ jobs:
       - name: Run tests with coverage
         run: npm test -- --coverage
 
+      - name: Setup Java 17
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
       - name: SonarQube Scan
         id: sonarqube
         env:
