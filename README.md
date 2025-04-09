@@ -1,1 +1,6 @@
-# sonarqube# Temp change to trigger SonarQube
+<<<<<<< HEAD
+Your changes from feature/test-sonarqube-pr
+=======
+Changes from develop branch
+>>>>>>> develop
+
